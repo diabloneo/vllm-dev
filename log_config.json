@@ -20,19 +20,25 @@
         },
         "file": {
             "class": "logging.FileHandler",
-            "formatter": "standard",
+            "formatter": "vllm_default",
             "level": "INFO",
             "filename": "vllm_server.log",
             "mode": "a"
         }
     },
     "root": {
-        "handlers": ["console", "file"],
+        "handlers": [
+            "console",
+            "file"
+        ],
         "level": "INFO"
     },
     "loggers": {
         "vllm": {
-            "handlers": ["console", "file"],
+            "handlers": [
+                "console",
+                "file"
+            ],
             "level": "INFO",
             "propagate": false
         }
