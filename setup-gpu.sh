@@ -12,6 +12,9 @@ fi
 echo "Changing to home directory"
 cd ~
 
+echo "Set hostname to vllm-dev"
+sudo hostnamectl set-hostname vllm-dev
+
 echo "Installing development dependencies"
 sudo apt-get update -y
 sudo apt-get install -y gcc-12 g++-12 libnuma-dev python3-dev
