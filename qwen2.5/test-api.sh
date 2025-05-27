@@ -6,7 +6,8 @@ curl http://localhost:8000/v1/completions \
     -d '{
         "model": "Qwen/Qwen2.5-7B-Instruct",
         "prompt": "Introduce yourself please. Tell me what can you do and how can you help me?",
-        "max_tokens": 1024,
+        "max_tokens": 32,
         "temperature": 0.1
     }'
 
+echo ""
