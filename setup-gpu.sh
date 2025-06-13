@@ -29,3 +29,6 @@ uv venv venv --python 3.12 --seed
 
 echo "Cloning vllm project"
 git clone https://github.com/vllm-project/vllm.git
+
+echo "Cloning LMBenchmark"
+git clone https://github.com/lmcache/LMBenchmark.git
