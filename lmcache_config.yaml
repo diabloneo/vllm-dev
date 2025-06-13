@@ -6,6 +6,6 @@ chunk_size: 256
 # max_local_cpu_size: 5.0 # 5GB CPU memory limit
 
 # Enable Disk backend
-local_disk: "file://home/ubuntu/lmcache_disk"
+local_disk: "file:///home/ubuntu/lmcache_disk"
 # 5GB of Disk memory
 max_local_disk_size: 5.0
